@@ -1,0 +1,58 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/DJI_0012.JPG");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 60px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 60px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: -184px 122px 60px 205px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-2 {
+    margin-right: 122px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 22px;
+    margin-left: 305px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+    margin-left: 234px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-3 {
+    margin-left: 176px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-2 {
+    margin-right: 77px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 111px;
+  }
+}
+
+h1{
+  font-family: Oswald;
+}

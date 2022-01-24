@@ -1372,7 +1372,6 @@
 .card .card-image {
   height: 50%;
   position: relative;
-  overflow: hidden;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: -30px;

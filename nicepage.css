@@ -1,3 +1,9 @@
+/*begin-commonstyles library*//*!
+ * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
+ * License https://froala.com/wysiwyg-editor/terms/
+ * Copyright 2014-2021 Froala Labs
+ */
+
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -20908,15 +20914,17 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: "Josefin Sans", sans-serif!important;
 }
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: Montserrat,sans-serif;
+}
+h2{
+  font-family:"Josefin Sans", sans-serif!important;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -20940,7 +20948,7 @@ h6 {
   font-family: 'Open Sans',sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Montserrat,sans-serif !important;
+  font-family: "Josefin Sans", sans-serif!important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -35245,7 +35253,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h2.u-subtitle
         {
-        font-family: Montserrat,sans-serif;
+        font-family: "Josefin Sans", sans-serif!important;;
         font-weight: 300;
         text-transform: capitalize;
         line-height: 1.2;
@@ -35261,7 +35269,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h2:not(.u-subtitle)
         {
-        font-family: Montserrat,sans-serif;
+        font-family: "Josefin Sans", sans-serif!important;;
         font-weight: 300;
         text-transform: capitalize;
         line-height: 1.2;
@@ -35463,7 +35471,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 86px;
+  min-height: 78px;
 }
 
 .u-header .u-image-1 {
@@ -35478,7 +35486,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -50px 60px 25px auto;
+  margin: -50px 60px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -35499,21 +35507,45 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-4 {
   box-shadow: 2px 2px 8px 0 rgba(128,128,128,1);
 }
+
+.u-header .u-text-1 {
+  font-size: 1.875rem;
+  margin: -38px 570px 20px 110px;
+}
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     margin-top: -50px;
     margin-right: 60px;
   }
-}
 
+  .u-header .u-text-1 {
+    margin-top: -38px;
+    margin-right: 470px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .u-header .u-text-1 {
+    margin-right: 260px;
+    margin-left: 0;
+  }
+}
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
     margin-right: auto;
     margin-bottom: 60px;
     margin-left: 0;
   }
-}
 
+  .u-header .u-text-1 {
+    margin-right: 80px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-text-1 {
+    margin-right: 0;
+  }
+}
  .u-footer {
   background-image: none;
 }

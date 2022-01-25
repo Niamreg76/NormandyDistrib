@@ -896,7 +896,8 @@
 
 .u-section-3 .u-list-item-4.u-list-item-4.u-list-item-4.hover {
   box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
-} .u-section-4 {
+} 
+.u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/DJI_00082.JPG");
   background-position: 50% 50%;
 }
@@ -1025,7 +1026,13 @@
   .u-section-4 .u-list-1 {
     width: 340px;
   }
-}.u-section-5 .u-sheet-1 {
+  .u-section-4 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/DJI_00082.JPG");
+    background-position: 50% 50%;
+    margin-top: -10%;
+  }
+}
+.u-section-5 .u-sheet-1 {
   min-height: 388px;
 }
 

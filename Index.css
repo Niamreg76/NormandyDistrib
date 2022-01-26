@@ -15,7 +15,7 @@
 }
 
  .u-section-1-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/IMG_0663.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/DJI_00082.png");
   background-position: 50% 50%;
 }
 
@@ -75,7 +75,7 @@
 }
 
  .u-section-1-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/DJI_00082.JPG");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/IMG_0663.jpg");
   background-position: 50% 50%;
 }
 
@@ -898,7 +898,7 @@
   box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 } 
 .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/DJI_00082.JPG");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/DJI_00082.png");
   background-position: 50% 50%;
 }
 
@@ -1027,7 +1027,7 @@
     width: 340px;
   }
   .u-section-4 {
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/DJI_00082.JPG");
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/IMG_0663.jpg");
     background-position: 50% 50%;
     margin-top: -10%;
   }
@@ -1456,3 +1456,10 @@
 .card{
   border-radius: 6px;
 }
+
+/* mark{
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em;
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
+} */

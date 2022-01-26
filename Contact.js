@@ -1,5 +1,5 @@
 const textElement = document.getElementById("text");
-const speedElement = 1.5;
+const speedElement = 2;
 const text = "Contactez-nous";
 let index = 1;
 let speed = 300 / speedElement;

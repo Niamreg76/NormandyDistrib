@@ -643,3 +643,14 @@
     min-height: 327px;
   }
 }
+h2{
+  display: inline;
+}
+.clignotement{
+  animation: clignoter 1s step-start infinite;
+}
+@keyframes clignoter{
+  50%{
+    opacity: 0;
+  }
+}

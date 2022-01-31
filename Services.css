@@ -1,3 +1,4 @@
+/* Nos services */
 .u-section-1 {
     background-image: url("images/-min.jpg");
     background-position: 50% 50%;
@@ -131,7 +132,7 @@
          
 
 
-
+/* Cartes services */
   h2 {
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -186,17 +187,6 @@
    
   }
   
-  .b-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
-
-
-
-/* SERVICES */
 .services {
   margin-top: 40px;
   display: grid;
@@ -263,7 +253,7 @@
 
 }
 
-
+/* vagues */
 .vague{
   margin: 0;
   padding: 0;

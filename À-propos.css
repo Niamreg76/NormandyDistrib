@@ -1,69 +1,4 @@
- .u-section-1 {
-  background-image: none;
-}
-
-.u-section-1 .u-sheet-1 {
-  min-height: 126px;
-}
-
-.u-section-1 .u-group-1 {
-  width: 599px;
-  min-height: 87px;
-  margin: 29px auto 10px 79px;
-}
-
-.u-section-1 .u-container-layout-1 {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.u-section-1 .u-text-1 {
-  font-weight: 700;
-  margin: 27px 31px 0 60px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-1 .u-text-1 {
-    width: 539px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-text-1 {
-    width: 720px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-group-1 {
-    width: 540px;
-    margin-left: 0;
-  }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-1 .u-text-1 {
-    width: 540px;
-    margin-left: 51px;
-    margin-right: 22px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-1 .u-group-1 {
-    width: 340px;
-  }
-
-  .u-section-1 .u-text-1 {
-    width: 340px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-} .u-section-3 {
+.u-section-3 {
   background-image: none;
 }
 
@@ -452,9 +387,7 @@
 
 
 /* 
----------------------------------------------
-Services Style
---------------------------------------------- 
+En savoir plus 
 */
 
 .services {

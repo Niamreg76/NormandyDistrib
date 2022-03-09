@@ -1,3 +1,3 @@
 ﻿# NormandyDistribs
 
-Site test d'un éléve de SIO
+Site réalisé lors du stage de première et de seconde année de BTS SIO à Saint-Jo Sup
